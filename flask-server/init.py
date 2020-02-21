@@ -55,41 +55,9 @@ def record():
         print("Speech Recognition canceled: {}".format(cancellation_details.reason))
         if cancellation_details.reason == speechsdk.CancellationReason.Error:
             print("Error details: {}".format(cancellation_details.error_details))
-    # </code>
 
 
 
-    # 페이지 렌더링
-    # return render_template('record.html', result = result.text)
-    
-
-    
-
-
-# def button():
-#     # database에 접근
-#     db = pymysql.connect(host='kpmg-server.mysql.database.azure.com',
-#                          port=3306,
-#                          user='ubuntu@kpmg-server',
-#                          passwd='5527563Aas@',
-#                          db='imap',
-#                          charset='utf8')
-
-#     # database를 사용하기 위한 cursor를 세팅합니다.
-#     cursor = db.cursor()
-#     # SQL query 작성
-#     sql = """UPDATE data SET content = 'aaaaa5678645378' 
-#             WHERE id = '20' """
-
-#     # SQL query 실행
-#     cursor.execute(sql)
-#     db.commit()
-
-#     # Database 닫기
-#     db.close()
-#     txt = "adff"
-
-    
 
 
 
