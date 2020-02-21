@@ -23,12 +23,6 @@
 > Azuer, MySql, AWS server, Jupyter, Flask
 
 
-
-## Source
-
-  STT
-
-  LDA 
  
 ## Team member
 >Olga Chernyaeva  김수민  손창영  이세진  박재성
