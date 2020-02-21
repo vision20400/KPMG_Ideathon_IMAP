@@ -13,11 +13,16 @@
 
 ## 사용한 공공 데이터 & API & 플랫폼..
 > Data : [amazon Annual reports, proxies and shareholder letters](https://ir.aboutamazon.com/annual-reports)
+
 > Data : [Microsoft Annual reports](https://www.microsoft.com/en-us/Investor/annual-reports.aspx)
+
 
 > API : azure.cognitiveservices.speech (Microsoft)
 
-> Azuer, MySql, AWS server, Jupyter
+
+> Azuer, MySql, AWS server, Jupyter, Flask
+
+
 
 ## Source
 
