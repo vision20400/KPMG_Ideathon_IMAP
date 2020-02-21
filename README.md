@@ -4,7 +4,7 @@
 > 우리의 서비스는 마이크로소프트의 Azure를 활용하여, 회의의 시작과 동시에 실시간으로 화자별,시간별, 내용 등이 체계적으로 분류된 디지털 문서를 작성합니다. 또한, 해당 문서들의 내용을 자연어처리 LDA기법을 통해 과학적으로 분석하여 원하는 주제를 손쉽게 처리할 수 있도록 전사적 문서관리 솔루션을 제공합니다.
 
 ## 프로젝트 개요
-<img src="/KPMG_Ideathon_IMAP/img/flowchart.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Flowchart"></img><br/>
+![flow chart](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
 
 ## 사용한 공공 데이터 & API & 플랫폼..
 > Data : [amazon Annual reports, proxies and shareholder letters](https://ir.aboutamazon.com/annual-reports)
