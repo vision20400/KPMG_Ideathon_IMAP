@@ -11,9 +11,6 @@
 
 - 회의 내용을 별다른 타이핑없이 웹 사이트에서 녹음하여 STT(Speech to text) 기능을 통해 곧바로 텍스트파일로 변환하여 Database에 추가한다.
 
-<img width="400" alt="KakaoTalk_20200222_071953210" src="https://user-images.githubusercontent.com/41162249/75076584-f3392600-5543-11ea-8051-250b11264438.png">
-
-
 - 쌓여 있는 수많은 데이터(ex. 회의록/ e-mail)를 빠르고 쉽게 분석하여, 직관적으로 모델링한다. 분석하고자 하는 데이터는 LDA(Latent Dirichlet Allocatio)과정을 거쳐 버블. 그래프 등 다양한 형태로 모델링되어 보여으로써 사용자가 보다 빠르게 데이터를 해석 / 분석할 수 있도록 도와준다.
 
 - 새로운 데이터가 기존의 데이터들과 어떠한 차이를 보이는가에 대한 분석을 필요로 할 때, KNN(K-Nearest Neighbor) 머신 러닝을 통해 쉽게 비교 해석할 수 있다.
