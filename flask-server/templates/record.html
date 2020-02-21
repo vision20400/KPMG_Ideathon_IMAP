@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript"> 
+            window.onload = function() { 
+                    document.getElementById('download_icon').onclick = function() { 
+                        window.location.href = 'http://127.0.0.1:5000/download';
+                    } 
+                }; 
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-image: url({{ url_for('static', filename='images/hero_2.jpg') }}); */
+                background-size: cover;
+            }
+            img {
+                width: 100px;
+            }
+            #record_block {
+                margin-top: 200px;
+                text-align: center;
+            }
+            #download_icon {
+                cursor: pointer
+            }
+            .download_text {
+                font-family: 'Noto Sans TC';
+                color: white;
+                font-weight: 200;
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+            .content {
+                font-family: 'Noto Sans TC';
+                color: white;
+                font-weight: 300;
+                font-size: 24px;
+                margin-bottom: 50px;
+                margin-left: 200px;
+                margin-right: 200px;
+                word-break: break-all;
+
+            }
+            .grid {
+                margin-top: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="record_block">
+            <div class="content">
+                {{ result }}
+            </div>
+            <div class="grid">
+                <div>
+                    <img id="download_icon" src="{{ url_for('static', filename='images/download.png') }}">
+                </div>
+                <div class="download_text">
+                    You can download the text
+                </div>
+            </div>
+            
+        </div>
+        <p>
+            {{ error }}
+        </p>
+        
+
+    </body>
+</html>
+<script>
+    
+</script>
