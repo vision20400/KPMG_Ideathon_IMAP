@@ -49,7 +49,7 @@ def record():
 
     elif result.reason == speechsdk.ResultReason.NoMatch:
         print("No speech could be recognized: {}".format(result.no_match_details))
-        return render_template('index.html', error = '아무 말씀도 없었습니다. 다시 말씀해주세요.')
+        return render_template('index.html', error = 'Please say again')
     elif result.reason == speechsdk.ResultReason.Canceled:
         cancellation_details = result.cancellation_details
         print("Speech Recognition canceled: {}".format(cancellation_details.reason))
