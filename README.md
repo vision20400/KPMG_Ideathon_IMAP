@@ -50,3 +50,12 @@
 
 ### Number of Documents by Dominant Topic
 ![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
+
+
+## [8] Team member	
+Olga Chernyaeva  김수민  손창영  이세진  박재성
+*  **Olga Chernyaeva** ([misslelka](https://github.com/misslelka))
+*  **김수민** ([09superm](https://github.com/09superm))
+*  **손창영** ([cyson1992](https://github.com/cyson1992))
+*  **이세진** ([vision20400](https://github.com/vision20400))
+*  **박재성** ([jaeseongDev](https://github.com/jaeseongDev))
