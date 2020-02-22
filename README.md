@@ -22,14 +22,14 @@
 정규화하여 계산된 문서 간의 유클리디언 거리를 통해, 사용자는 입력한 문서와 가장 유사하다고 판단되는 문서를 정확하고 빠르게 찾아 비교, 분석할 수 있습니다.
 
 ## [5] 학습 및 검정을 위해 사용된 데이터
-- 1. [Microsoft Annual Reports, Proxies and Letter to shareholders](https://www.microsoft.com/en-us/Investor/annual-reports.aspx)
-- 2. [Amazon Annual Reports, Proxies and Letter to shareholders](https://ir.aboutamazon.com/annual-reports)
+1. [Microsoft Annual Reports, Proxies and Letter to shareholders](https://www.microsoft.com/en-us/Investor/annual-reports.aspx)
+2. [Amazon Annual Reports, Proxies and Letter to shareholders](https://ir.aboutamazon.com/annual-reports)
 > 위 보고서를 직접 음성으로 바꾸어 Speech to Text의 기반 데이터로 삼았습니다.
 
-## [6] 사용 도구(그림 넣어야하는데 모르겠음 ㅠㅠ)
-- 1. DB: Microsoft Azure MySQL
-- 2. API: Microsoft Azure Cognitive Services STT
-- 3. AWS EC2, Jupyter notebook, Flask, Github
+## [6] 사용 도구
+1. DB: Microsoft Azure MySQL
+2. API: Microsoft Azure Cognitive Services STT
+3. AWS EC2, Jupyter notebook, Flask, Github
 
 ## [7] 데모 실행 결과
 ### Speech to Text
