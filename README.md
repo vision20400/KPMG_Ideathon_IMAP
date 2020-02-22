@@ -9,7 +9,7 @@
 - ScikitLearn Euclidean distance
 
 ## [3] 순서도
-![flow chart](./img/flow chart.JPG)
+![flow chart](img/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
 
 ## [4] 구현 기능
 ### 회의 음성 텍스트 변환
