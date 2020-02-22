@@ -53,7 +53,6 @@
 
 
 ## [8] Team member	
-Olga Chernyaeva  김수민  손창영  이세진  박재성
 *  **Olga Chernyaeva** ([misslelka](https://github.com/misslelka))
 *  **김수민** ([09superm](https://github.com/09superm))
 *  **손창영** ([cyson1992](https://github.com/cyson1992))
