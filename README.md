@@ -46,10 +46,13 @@
 ![word Cloud](./img/word_cloud.png)
 
 ### Word Count and Importance of Topic Keywords
-![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
+![word_importance](./img/word_importance.png)
 
 ### Number of Documents by Dominant Topic
-![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
+![dominant_topic](./img/dominant_topic1.png)
+
+### Number of Documents by Topic Weightage
+![dominant_topic2](./img/dominant_topic2.png)
 
 
 ## [8] Team member	
