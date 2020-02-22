@@ -9,7 +9,7 @@
 - ScikitLearn Euclidean distance
 
 ## [3] 순서도
-![flow chart](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
+![flow chart](./img/flow chart.JPG)
 
 ## [4] 구현 기능
 ### 회의 음성 텍스트 변환
@@ -33,16 +33,16 @@
 
 ## [7] 데모 실행 결과
 ### Speech to Text
-![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
+![stt](./img/record.png)
 
 ### Bubble Graph
-![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
+![Bubble_Graph](./img/graph.png)
 
 ### Dominant Topic Table
-![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
+![Dominat Topic Table](./img/structure.png)
 
 ### Word Cloud
-![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
+![word Cloud](./img/word_cloud.png)
 
 ### Word Count and Importance of Topic Keywords
 ![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
