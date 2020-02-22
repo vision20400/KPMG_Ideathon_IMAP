@@ -1,34 +1,51 @@
-# KPMG_Ideathon_IMAP
-> 지금도 전 세계의 수많은 기업들은 누적된 대량의 아날로그-디지털 형식으로 섞인 문서들을 적절하게 관리하지 못하여 소중한 인적, 물적 자원을 낭비하고 있습니다. 기업이 본연의 영업활동에 역량을 집중하기 위해서는 문서의 생성, 관리를 자동화하고 효율적으로 관리할 수 있어야 합니다.
+# 프로젝트명: AI 기반 자동 회의록 분석 솔루션, IMAP
 
-> 우리의 서비스는 마이크로소프트의 Azure를 활용하여, 회의의 시작과 동시에 실시간으로 화자별,시간별, 내용 등이 체계적으로 분류된 디지털 문서를 작성합니다. 또한, 해당 문서들의 내용을 자연어처리 LDA기법을 통해 과학적으로 분석하여 원하는 주제를 손쉽게 처리할 수 있도록 전사적 문서관리 솔루션을 제공합니다.
+## [1] 프로젝트 개요
+정례 회의, 부서 회의, 팀별 회의, 긴급 회의, 오전 회의, 오후 회의 … 회사 생활은 사실 회의의 연속이라고 해도 과언이 아닙니다. 회의는 일의 진행상황을 전체가 공유함으로써 일의 효율을 높이는 것이 목적이지만, 회의 기록을 매번 작성하고 분석하는 과정에서 본연의 목적이 전도되는 상황이 더 많습니다.  저희 IMAP은 수없이 진행되는 많은 구두 회의를 기록하고 분석하는 것에 지친 이들을 위해 AI 기반 토탈 솔루션을 제시합니다. 3가지의 핵심 인공지능 기술로 구현된 IMAP을 통해 사용자는 낭비되는 시간과 자원을 대폭 줄이며 업무의 효율성을 극대화할 수 있습니다.
 
-## 프로젝트 개요 
-### flow chart
+## [2] 핵심 인공지능, 머신러닝 기술
+- Microsoft Azure Speech to Text
+- LDA(Latent Dirichlet Allocation) Topic Modeling
+- ScikitLearn Euclidean distance
 
+## [3] 순서도
 ![flow chart](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
 
-### main idea
+## [4] 구현 기능
+### 회의 음성 텍스트 변환
+현재 진행 중인 회의 내용을 웹 기반의 플랫폼에서 실시간으로 녹음, 분석하여 의미 있는 텍스트파일로 변환합니다. 변환된 텍스트 파일은 Azure의 MySQL 데이터베이스에 안전하게 저장되어, 목적에 따라 다양한 확장자로 내보내기가 가능합니다.
 
+### 문서 별 주제 탐색 및 시각화 분석
+수많은 텍스트 기반의 데이터를 빠르게 분석하여 중요한 주제를 모델링합니다. 이러한 분석 결과를 사용자의 요구에 따라 시각적 툴로 표현하여, 복잡한 전처리 과정을 줄이고 손쉽게 분석할 수 있도록 합니다.
 
-- STT : 회의 내용을 별다른 타이핑없이 웹 사이트에서 녹음하여 STT(Speech to text) 기능을 통해 곧바로 텍스트파일로 변환하여 Database에 추가한다.
+### 유사 문서 탐색
+정규화하여 계산된 문서 간의 유클리디언 거리를 통해, 사용자는 입력한 문서와 가장 유사하다고 판단되는 문서를 정확하고 빠르게 찾아 비교, 분석할 수 있습니다.
 
-- LDA : 쌓여 있는 수많은 데이터(ex. 회의록/ e-mail)를 빠르고 쉽게 분석하여, 직관적으로 모델링한다. 분석하고자 하는 데이터는 LDA(Latent Dirichlet Allocatio)과정을 거쳐 버블. 그래프 등 다양한 형태로 모델링되어 보여으로써 사용자가 보다 빠르게 데이터를 해석 / 분석할 수 있도록 도와준다.
+## [5] 학습 및 검정을 위해 사용된 데이터
+- 1. [Microsoft Annual Reports, Proxies and Letter to shareholders](https://www.microsoft.com/en-us/Investor/annual-reports.aspx)
+- 2. [Amazon Annual Reports, Proxies and Letter to shareholders](https://ir.aboutamazon.com/annual-reports)
+> 위 보고서를 직접 음성으로 바꾸어 Speech to Text의 기반 데이터로 삼았습니다.
 
-- KNN : 새로운 데이터가 기존의 데이터들과 어떠한 차이를 보이는가에 대한 분석을 필요로 할 때, KNN(K-Nearest Neighbor) 머신 러닝을 통해 쉽게 비교 해석할 수 있다.
+## [6] 사용 도구(그림 넣어야하는데 모르겠음 ㅠㅠ)
+- 1. DB: Microsoft Azure MySQL
+- 2. API: Microsoft Azure Cognitive Services STT
+- 3. AWS EC2, Jupyter notebook, Flask, Github
 
-## 사용한 공공 데이터 & API & 플랫폼..
-> Data : [amazon Annual reports, proxies and shareholder letters](https://ir.aboutamazon.com/annual-reports)
+## [7] 데모 실행 결과
+### Speech to Text
+![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
 
-> Data : [Microsoft Annual reports](https://www.microsoft.com/en-us/Investor/annual-reports.aspx)
+### Bubble Graph
+![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
 
+### Dominant Topic Table
+![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
 
-> API : azure.cognitiveservices.speech (Microsoft)
+### Word Cloud
+![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
 
+### Word Count and Importance of Topic Keywords
+![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
 
-> Azuer, MySql, AWS server, Jupyter, Flask
-
-
- 
-## Team member
->Olga Chernyaeva  김수민  손창영  이세진  박재성
+### Number of Documents by Dominant Topic
+![stt](https://user-images.githubusercontent.com/41162249/75070619-f5e14e80-5536-11ea-97ae-a25b16e3f8ad.JPG)
