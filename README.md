@@ -34,7 +34,7 @@
 ## [7] 데모 실행 결과
 ### Speech to Text
 ![stt](./img/record.png)
-![download_text)(./img/download_text.png)
+![download_text](./img/download_text.png)
 
 ### Bubble Graph
 ![Bubble_Graph](./img/graph.png)
